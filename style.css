@@ -1,0 +1,43 @@
+body {
+    background-color:#E6E6FA;
+    font-family: monospace, 'Courier New', Courier;
+    margin: 10px;
+    font-size: lvw: 1.5%;
+    
+}
+
+#logo {
+    margin: 10px;
+    padding: 10px;
+    font-family: "PLayfair Display", monospace;
+    width: 20;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+ background-color: #C3B1E1;
+ color: black;
+ display: flex;
+ height: 21vh;
+ align-items: center;
+ justify-content: space-around;
+ list-style: none;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    margin-left: 100px;
+    border-radius: 25%;
+}
+
+body > main > footer {
+   float: right;
+   padding: 500px;
+}

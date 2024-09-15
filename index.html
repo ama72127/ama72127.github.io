@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Artful-i</title>
+    <style>
+        blockquote {
+            float: right; /* Positions the blockquote absolutely */
+            right: 0;           /* Aligns the blockquote to the right */
+            width: 40%;         /* Set a specific width */
+            font-style: italic; /* Style as you prefer */
+            border-left: 5px solid #ccc;
+            padding-left: 10x;
+            padding-bottom: 100;
+        }
+
+        body {
+            position: relative; /* Ensures the body acts as a container for the absolute position */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Artful-i</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="navbutton"> Here's Home</a>
+                </li>
+                <li>
+                    <a href="" class="navbutton">A Bit About Us</a>
+                </li>
+                <li>
+                    <a href="" class="navbutton">Need Help?</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="main-content"> 
+            <article></article>
+                <aside>
+                    <section>
+                        <h4> Which Season?</h4>
+                        <nav>
+                            <ul>
+                             <li><a href="">Filter for Spring</a></li>
+                             <li><a href="">Filter for Summer</a></li>
+                             <li><a href="">Filter for Autumn</a></li> 
+                             <li><a href="">Filter for Winter</a></li>    
+                            </ul>
+                        </nav>
+                    </section>
+                    <section>
+                        <h4>Which Category?</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="">Skies</a></li>
+                                <li><a href="">Nature</a></li>
+                                <li><a href="">Cities</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                </aside>
+             </article>
+        </div>
+        <div>
+            <article>
+                <header>
+                    <h2>Up in the Clouds</h2>
+                        <h3><a href="">#Skies, #Clouds, #Moon, #Stars</a></h3>
+                    <img src="images/sky.jpg" alt="Picture of Pinkish Clouds in a Blue Sky" width="1000" height="500">
+                </header>
+                </header>
+                <footer>
+                    <blockquote>It's a beautiful sky ~ <cite>You Are, GOT7</cite></blockquote>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2>On the Ground</h2>
+                    <h3><a href="">#Trees, #Flowers, #Animals, #Water</a></h3>
+                    <img src="images/beach.jpg" alt="Picture of a Beach at Sunset" width="1000" height="500">
+                </header>
+                <footer>
+                    <blockquote>Somewhere above the waves~ <cite>Wave, ATEEZ</cite></blockquote>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2>Twinkling Lights</h2>
+                    <h3><a href="">#Skylines, #Infrastructure, Buildings, #Statues</a></h3>
+                    <img src="images/city.jpg" alt="Picture of a City at Night from an Aerial View" width="1000" height="500">
+                </header>
+                <footer>
+                    <blockquote>The moonlight shining on the dancing city shines ~ <cite>Back to the City, Kep1er</cite></blockquote>
+                </footer>
+            </article>
+        </div>
+        
+    
+        <h2>Submit Your Photos!</h2>
+        <form action=""method="">
+           <label for="first_name">First Name:</label>
+           <input type="text" id="first_name" name="first_name" required>
+           <br>
+
+           <label for="last_name">Last Name:</label>
+           <input type="text" id="last_name" name="last_name" required>
+           <br>
+
+           <label for="email">Email</label>
+           <input type="email" name="email" id="email">
+           <br>
+
+           <label for="password">Password:</label>
+           <input type="password" name="password" id="password">
+           <br>
+           <label for="category">Category:</label>
+           <input type="radio" name="Up_in_the_Clouds" id="Up_in_the_Clouds" value="Up_in_the_Clouds">
+           <label for="Up_in_the_Clouds">Up in the Clouds</label>
+
+           <input type="radio" name="on_the_ground" id="on_the_ground" value="on_the_ground">
+           <label for="on_the_ground">On the Ground</label>
+
+           <input type="radio" name="twinkling_lights" id="twinkling_lights" value="twinkling_lights">
+           <label for="twinkling_lights">Twinkling Lights</label>
+           
+           <br>
+
+           <label for="country">Country:</label>
+           <select name="country" id="country">
+               <option value="england">England</option>
+               <option value="wales">Wales</option>
+               <option value="scotland">Scotland</option>
+               <option value="northern_ireland">Northern Ireland</option>
+           </select>
+           <br>
+
+           <label for="pic">Picture:</label>
+           <input type="file">
+           <br>
+           <input type="checkbox" id="subscribe"  name="subscribe">
+           <label for="subscribe">Send it in!</label>
+           <br>
+
+           <input type="submit" value="Send!">  
+           <!-- value here is what we put on the button -->
+        </form>
+        <hr>
+   </main>
+   <footer>
+       <!-- the content of the footer goes here -->
+        <h2>Artful-i</h2>
+        <section>
+           <nav>
+               <ul id="footer-ul">
+                   <div> <li><a href="">Here's Home</a></li>
+                       <li><a href="">A Bit About Us</a></li>
+                       <li><a href="">Need Help?</a></li>
+                   </div>
+                  <div>
+                   <li><a href="">Privacy Policy</a></li>
+                   <li><a href="">Terms & Conditions</a></li>
+                   <li><a href="">Cookie Policy</a></li>
+                  </div> 
+               </ul>
+           </nav>
+        </section>
+   </footer>
+    </main>
+</body>
+</html>
